@@ -1,0 +1,12 @@
+name: sleep-efficiency-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - conda-forge::seaborn
+  - scikit-learn
+  - conda-forge::jupyterlab
